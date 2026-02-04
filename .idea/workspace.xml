@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f0bb90d3-de92-4fdc-9259-eaeb1e8504d4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/FinTech.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Financial Time Series/FinancialTime_Series.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Financial Time Series/financial_time_series.csv" afterDir="false" />
+    <list default="true" id="f0bb90d3-de92-4fdc-9259-eaeb1e8504d4" name="Changes" comment="Fintech DataScience 1st and 2nd class">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Financial Time Series/FinancialTime_Series.py" beforeDir="false" afterPath="$PROJECT_DIR$/Financial Time Series/FinancialTime_Series.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Financial Time Series/financial_time_series.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Financial Time Series/financial_time_series.csv" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +21,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "jainhardik13"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/jainhardik13/Fintech_DataScience.git",
+    "accountId": "d95bb3a2-1834-4985-b43d-6b8451d2b4de"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
 }</component>
@@ -74,16 +82,29 @@
       <workItem from="1770010217611" duration="6401000" />
       <workItem from="1770024224022" duration="3688000" />
       <workItem from="1770177800545" duration="3709000" />
-      <workItem from="1770181582557" duration="562000" />
+      <workItem from="1770181582557" duration="5210000" />
     </task>
+    <task id="LOCAL-00001" summary="Fintech DataScience 1st and 2nd class">
+      <option name="closed" value="true" />
+      <created>1770182274838</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1770182274838</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Fintech DataScience 1st and 2nd class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fintech DataScience 1st and 2nd class" />
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/FinTech$1st.coverage" NAME="1st Coverage Results" MODIFIED="1770016613953" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/FinTech$FinancialTime_Series.coverage" NAME="FinancialTime_Series Coverage Results" MODIFIED="1770182082129" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Financial Time Series" />
+    <SUITE FILE_PATH="coverage/FinTech$FinancialTime_Series.coverage" NAME="FinancialTime_Series Coverage Results" MODIFIED="1770188008617" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Financial Time Series" />
     <SUITE FILE_PATH="coverage/FinTech$2nd.coverage" NAME="2nd Coverage Results" MODIFIED="1770027903761" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/FinTech$graphs.coverage" NAME="graphs Coverage Results" MODIFIED="1770181139849" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/graphs" />
   </component>
