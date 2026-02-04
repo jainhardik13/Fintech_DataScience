@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f0bb90d3-de92-4fdc-9259-eaeb1e8504d4" name="Changes" comment="Fintech DataScience 1st and 2nd class">
+    <list default="true" id="f0bb90d3-de92-4fdc-9259-eaeb1e8504d4" name="Changes" comment="Made graphs with seaborn and matplot lib on financial series data">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Financial Time Series/FinancialTime_Series.py" beforeDir="false" afterPath="$PROJECT_DIR$/Financial Time Series/FinancialTime_Series.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Financial Time Series/financial_time_series.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Financial Time Series/financial_time_series.csv" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,18 +19,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "jainhardik13"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;jainhardik13&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/jainhardik13/Fintech_DataScience.git",
-    "accountId": "d95bb3a2-1834-4985-b43d-6b8451d2b4de"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/jainhardik13/Fintech_DataScience.git&quot;,
+    &quot;accountId&quot;: &quot;d95bb3a2-1834-4985-b43d-6b8451d2b4de&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
 }</component>
@@ -41,22 +39,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python.1st.executor": "Run",
-    "Python.2nd.executor": "Run",
-    "Python.FinancialTime_Series.executor": "Run",
-    "Python.graphs.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "ai.playground.ignore.import.keys.banner.in.settings": "true",
-    "git-widget-placeholder": "master",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python.1st.executor&quot;: &quot;Run&quot;,
+    &quot;Python.2nd.executor&quot;: &quot;Run&quot;,
+    &quot;Python.FinancialTime_Series.executor&quot;: &quot;Run&quot;,
+    &quot;Python.graphs.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;ai.playground.ignore.import.keys.banner.in.settings&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Jainh\OneDrive\Desktop\FinTech\Financial Time Series" />
@@ -82,7 +80,8 @@
       <workItem from="1770010217611" duration="6401000" />
       <workItem from="1770024224022" duration="3688000" />
       <workItem from="1770177800545" duration="3709000" />
-      <workItem from="1770181582557" duration="5210000" />
+      <workItem from="1770181582557" duration="5366000" />
+      <workItem from="1770195076174" duration="720000" />
     </task>
     <task id="LOCAL-00001" summary="Fintech DataScience 1st and 2nd class">
       <option name="closed" value="true" />
@@ -92,7 +91,15 @@
       <option name="project" value="LOCAL" />
       <updated>1770182274838</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Made graphs with seaborn and matplot lib on financial series data">
+      <option name="closed" value="true" />
+      <created>1770188118773</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1770188118773</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -100,7 +107,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Fintech DataScience 1st and 2nd class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fintech DataScience 1st and 2nd class" />
+    <MESSAGE value="Made graphs with seaborn and matplot lib on financial series data" />
+    <option name="LAST_COMMIT_MESSAGE" value="Made graphs with seaborn and matplot lib on financial series data" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/FinTech$1st.coverage" NAME="1st Coverage Results" MODIFIED="1770016613953" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
