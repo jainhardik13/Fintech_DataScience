@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f0bb90d3-de92-4fdc-9259-eaeb1e8504d4" name="Changes" comment="Made graphs with seaborn and matplot lib on financial series data">
+      <change afterPath="$PROJECT_DIR$/Machine Learning 1st/Linear Regression .xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Machine Learning 1st/ML1.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -82,6 +84,10 @@
       <workItem from="1770177800545" duration="3709000" />
       <workItem from="1770181582557" duration="5366000" />
       <workItem from="1770195076174" duration="720000" />
+      <workItem from="1770264731899" duration="837000" />
+      <workItem from="1770271352396" duration="379000" />
+      <workItem from="1770271749261" duration="308000" />
+      <workItem from="1770281422625" duration="546000" />
     </task>
     <task id="LOCAL-00001" summary="Fintech DataScience 1st and 2nd class">
       <option name="closed" value="true" />
