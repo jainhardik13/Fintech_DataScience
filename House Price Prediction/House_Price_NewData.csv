@@ -1,0 +1,4 @@
+House_Age,Area_sqft,No_of_Bedrooms,No_of_Bathrooms,Distance_from_CityCenter_km,Crime_Rate_Index,Nearby_Schools,Furnishing_Status,Locality_Category,Parking_Space
+10,1800,3,2,8.5,4.3,4,Furnished,Premium,2
+35,3200,5,4,15.2,7.1,3,Unfurnished,Economy,1
+5,950,2,1,3.1,2.0,5,Semi-Furnished,Standard,0
