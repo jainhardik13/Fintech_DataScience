@@ -1,10 +1,187 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <title>Hardik Jain - Resume</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background: #ffffff;
+            color: #000;
+            margin: 0;
+            padding: 0;
+        }
+
+        .resume {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 20px 40px;
+        }
+
+        h1 {
+            font-size: 28px;
+            margin-bottom: 5px;
+        }
+
+        .contact {
+            font-size: 14px;
+            margin-bottom: 20px;
+        }
+
+        .contact a {
+            color: #000;
+            text-decoration: none;
+        }
+
+        .section {
+            margin-top: 25px;
+        }
+
+        .section-title {
+            font-size: 18px;
+            font-weight: bold;
+            border-bottom: 2px solid #000;
+            padding-bottom: 4px;
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 14px;
+            line-height: 1.5;
+            margin: 5px 0;
+        }
+
+        ul {
+            margin: 8px 0 8px 20px;
+            padding: 0;
+        }
+
+        ul li {
+            font-size: 14px;
+            margin-bottom: 6px;
+        }
+
+        .project-title {
+            font-weight: bold;
+            font-size: 14.5px;
+        }
+
+        .project-tech {
+            font-style: italic;
+            font-size: 13.5px;
+        }
+
+        .education-item {
+            margin-bottom: 8px;
+        }
+
+        .skills strong {
+            display: inline-block;
+            width: 170px;
+        }
+    </style>
 </head>
+
 <body>
-$END$
+<div class="resume">
+
+    <h1>Hardik Jain</h1>
+
+    <div class="contact">
+        📧 <a href="mailto:jainhardik2100@gmail.com">jainhardik2100@gmail.com</a> |
+        📞 9115633911 <br>
+        🔗 <a href="https://linkedin.com/in/jainhardik21">linkedin.com/in/jainhardik21</a> |
+        💻 <a href="https://github.com/jainhardik13">github.com/jainhardik13</a>
+    </div>
+
+    <!-- Profile -->
+    <div class="section">
+        <div class="section-title">Profile</div>
+        <p>
+            Computer Science Engineering undergraduate specializing in Backend Development using Java and Spring Boot.
+            Hands-on experience in designing and building RESTful microservices, implementing JWT-based security,
+            and working with relational databases (MySQL). Strong understanding of Java core concepts, OOP,
+            collections, multithreading basics, and clean coding practices. Passionate about building scalable,
+            high-performance backend systems in collaborative engineering environments.
+        </p>
+    </div>
+
+    <!-- Projects -->
+    <div class="section">
+        <div class="section-title">Projects</div>
+
+        <p class="project-title">Swiggaa – Food Delivery Platform</p>
+        <p class="project-tech">Java | Spring Boot | Microservices | REST APIs | JWT | MySQL</p>
+        <ul>
+            <li>Designed and developed scalable backend microservices using Java 8+ and Spring Boot.</li>
+            <li>Built RESTful APIs for core business workflows and integrated services using API Gateway and Eureka.</li>
+            <li>Implemented JWT-based authentication and authorization, securing critical backend endpoints.</li>
+            <li>Applied clean architecture principles and modular design for maintainability and scalability.</li>
+            <li>Debugged and resolved production-level issues, improving API response time and system reliability.</li>
+            <li>Performed integration testing, API validation, and performance optimization.</li>
+            <li>Collaborated across services, simulating a real-world SDLC environment.</li>
+        </ul>
+
+        <p class="project-title">Resume Builder – Full Stack SaaS Application</p>
+        <p class="project-tech">Backend APIs | Authentication | MongoDB</p>
+        <ul>
+            <li>Developed secure REST APIs with proper input validation and error handling.</li>
+            <li>Implemented JWT authentication, protected routes, and session management.</li>
+            <li>Designed efficient backend workflows and optimized database queries.</li>
+            <li>Followed modular backend architecture and clean coding standards.</li>
+        </ul>
+    </div>
+
+    <!-- Achievements -->
+    <div class="section">
+        <div class="section-title">Achievements</div>
+        <ul>
+            <li>
+                Co-authored a research paper titled <strong>“Revolutionized Breast Cancer Detection: Enhancing AI and
+                Machine Learning”</strong>, accepted in <em>AI-Driven Management: Process Optimization for Competitive
+                Advantage Using Algorithms (2025)</em>.
+            </li>
+            <li>Academic Excellence: Maintained consistent 9.0+ CGPA while leading technical projects.</li>
+        </ul>
+    </div>
+
+    <!-- Education -->
+    <div class="section">
+        <div class="section-title">Education</div>
+
+        <div class="education-item">
+            <p><strong>Bachelor of Engineering in Computer Science</strong> – Chitkara University, Punjab (2023 – 2027)</p>
+            <p>Current CGPA: 9.30</p>
+        </div>
+
+        <div class="education-item">
+            <p><strong>Higher Secondary Education (Class XII)</strong> – BCM School, Ludhiana (2022 – 2023)</p>
+            <p>Percentage: 92%</p>
+        </div>
+
+        <div class="education-item">
+            <p><strong>Secondary Education (Class X)</strong> – BCM School, Ludhiana (2020 – 2021)</p>
+            <p>Percentage: 94%</p>
+        </div>
+    </div>
+
+    <!-- Skills -->
+    <div class="section skills">
+        <div class="section-title">Skills</div>
+
+        <p><strong>Programming Languages:</strong> Java (Core Java, OOP, Collections), C++, Python, JavaScript</p>
+        <p><strong>Backend Development:</strong> Spring Boot, RESTful APIs, Microservices Architecture, JWT Authentication, API Design, Postman</p>
+        <p><strong>Databases:</strong> MySQL, MongoDB, PostgreSQL (basic), ORM concepts (Hibernate – conceptual)</p>
+        <p><strong>Concurrency & Core CS:</strong> Multithreading Basics, Data Structures & Algorithms, Operating Systems, DBMS, Computer Networks</p>
+        <p><strong>Tools & Platforms:</strong> Git, Maven (basic), Docker (basic), AWS EC2/S3 (beginner), Linux</p>
+        <p><strong>Software Engineering Practices:</strong> Clean Code, Modular Design, Secure Coding Practices, Debugging, Performance Optimization</p>
+        <p><strong>Current Learning & Certifications:</strong> Linux Administration — Imran Afzal (Udemy), Python for Data Science & Machine Learning — Yasin Marco MBA (Udemy)</p>
+        <p><strong>Soft Skills:</strong> Problem Solving, Ownership Mindset, Team Collaboration, Clear Communication, Fast Learner, Attention to Detail, Adaptability</p>
+        <p><strong>Personal Interests:</strong> Gaming and Esports, Exploring PC Hardware, Web Development, Emerging Tech Trends</p>
+    </div>
+
+</div>
 </body>
 </html>

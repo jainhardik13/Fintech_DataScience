@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f0bb90d3-de92-4fdc-9259-eaeb1e8504d4" name="Changes" comment="2st ML Model created">
+    <list default="true" id="f0bb90d3-de92-4fdc-9259-eaeb1e8504d4" name="Changes" comment="House Price Prediction Model trained">
+      <change afterPath="$PROJECT_DIR$/2310991837_Hardik_Jain.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Advance Web Scrapping/WebScrapping_ADV.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/updated portfolio management/Updated_Portfolio_Management.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/updated portfolio management/updated_portfolio.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/House Price Prediction/ML3.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/House Price Prediction/ML3.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Notes.docx" beforeDir="false" afterPath="$PROJECT_DIR$/Notes.docx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -26,6 +29,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="Jupyter Notebook" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -54,6 +59,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Python.1st.executor": "Run",
     "Python.2nd.executor": "Run",
@@ -64,13 +70,19 @@
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "ai.playground.ignore.import.keys.banner.in.settings": "true",
     "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/Jainh/OneDrive/Desktop/FinTech",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Jainh\OneDrive\Desktop\FinTech" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Jainh\OneDrive\Desktop\FinTech\updated portfolio management" />
+      <recent name="C:\Users\Jainh\OneDrive\Desktop\FinTech" />
       <recent name="C:\Users\Jainh\OneDrive\Desktop\FinTech\Financial Time Series" />
     </key>
   </component>
@@ -107,7 +119,10 @@
       <workItem from="1770286046801" duration="26000" />
       <workItem from="1770350136091" duration="153000" />
       <workItem from="1770351539175" duration="3026000" />
-      <workItem from="1770354770000" duration="1992000" />
+      <workItem from="1770354770000" duration="4924000" />
+      <workItem from="1770363398164" duration="82000" />
+      <workItem from="1770367806363" duration="5192000" />
+      <workItem from="1770610216311" duration="1504000" />
     </task>
     <task id="LOCAL-00001" summary="Fintech DataScience 1st and 2nd class">
       <option name="closed" value="true" />
@@ -141,7 +156,15 @@
       <option name="project" value="LOCAL" />
       <updated>1770351593425</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="House Price Prediction Model trained">
+      <option name="closed" value="true" />
+      <created>1770357053875</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1770357053875</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -152,7 +175,8 @@
     <MESSAGE value="Made graphs with seaborn and matplot lib on financial series data" />
     <MESSAGE value="1st ML Model created" />
     <MESSAGE value="2st ML Model created" />
-    <option name="LAST_COMMIT_MESSAGE" value="2st ML Model created" />
+    <MESSAGE value="House Price Prediction Model trained" />
+    <option name="LAST_COMMIT_MESSAGE" value="House Price Prediction Model trained" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/FinTech$1st.coverage" NAME="1st Coverage Results" MODIFIED="1770016613953" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
