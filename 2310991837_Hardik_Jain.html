@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <title>Hardik Jain - Resume</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Georgia&display=swap" rel="stylesheet">
 
     <style>
         * {
@@ -14,288 +16,155 @@
         }
 
         body {
-            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            color: #2d3748;
-            margin: 0;
-            padding: 40px 20px;
-            line-height: 1.6;
+            font-family: 'Inter', Arial, sans-serif;
+            background: #f4f4f4;
+            color: #000;
+            padding: 20px;
+            line-height: 1.4;
+        }
+
+        .print-btn {
+            text-align: center;
+            margin-bottom: 15px;
+        }
+
+        .print-btn button {
+            padding: 8px 16px;
+            font-size: 14px;
+            border: 1px solid #000;
+            background: #fff;
+            cursor: pointer;
         }
 
         .resume {
-            max-width: 920px;
-            margin: 0 auto;
-            background: #ffffff;
-            padding: 0;
-            border-radius: 16px;
-            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
-            overflow: hidden;
+            max-width: 850px;
+            margin: auto;
+            background: #fff;
+            padding: 32px 40px;
+            border: 1px solid #ccc;
         }
 
-        /* Header Section */
+        /* Header */
         .header {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            color: white;
-            padding: 50px 50px 40px;
             text-align: center;
-            position: relative;
-        }
-
-        .header::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            background: url('data:image/svg+xml,<svg width="100" height="100" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse"><path d="M 20 0 L 0 0 0 20" fill="none" stroke="rgba(255,255,255,0.05)" stroke-width="1"/></pattern></defs><rect width="100" height="100" fill="url(%23grid)"/></svg>');
-            opacity: 0.4;
+            margin-bottom: 20px;
         }
 
         h1 {
-            font-family: 'Poppins', sans-serif;
-            font-size: 42px;
-            font-weight: 700;
-            margin-bottom: 15px;
-            position: relative;
-            z-index: 1;
-            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+            font-family: Georgia, serif;
+            font-size: 28px;
+            font-weight: bold;
+            margin-bottom: 6px;
         }
 
         .contact {
-            font-size: 15px;
-            margin-top: 15px;
-            position: relative;
-            z-index: 1;
-            line-height: 1.8;
+            font-size: 13px;
         }
 
         .contact a {
-            color: #ffffff;
+            color: #000;
             text-decoration: none;
-            transition: all 0.3s ease;
-            border-bottom: 2px solid transparent;
-            padding-bottom: 2px;
         }
 
-        .contact a:hover {
-            border-bottom-color: #ffd700;
-            transform: translateY(-2px);
-        }
-
-        /* Content Area */
-        .content {
-            padding: 45px 50px;
-        }
-
+        /* Sections */
         .section {
-            margin-bottom: 35px;
-            animation: fadeIn 0.6s ease-in;
-        }
-
-        @keyframes fadeIn {
-            from {
-                opacity: 0;
-                transform: translateY(20px);
-            }
-            to {
-                opacity: 1;
-                transform: translateY(0);
-            }
+            margin-bottom: 16px;
         }
 
         .section-title {
-            font-family: 'Poppins', sans-serif;
-            font-size: 24px;
+            font-size: 15px;
             font-weight: 600;
-            color: #667eea;
-            border-left: 5px solid #667eea;
-            padding-left: 15px;
-            margin-bottom: 20px;
-            position: relative;
-        }
-
-        .section-title::after {
-            content: '';
-            position: absolute;
-            bottom: -8px;
-            left: 0;
-            width: 60px;
-            height: 3px;
-            background: linear-gradient(90deg, #667eea, #764ba2);
-            border-radius: 2px;
+            text-transform: uppercase;
+            border-bottom: 1px solid #000;
+            margin-bottom: 6px;
+            padding-bottom: 2px;
         }
 
         p {
-            font-size: 15px;
-            line-height: 1.7;
-            margin: 10px 0;
-            color: #4a5568;
+            font-size: 13px;
+            margin-bottom: 6px;
         }
 
         ul {
-            margin: 15px 0 15px 25px;
-            padding: 0;
+            margin-left: 18px;
+            margin-top: 4px;
         }
 
         ul li {
-            font-size: 15px;
-            margin-bottom: 10px;
-            color: #4a5568;
-            position: relative;
-            padding-left: 5px;
-        }
-
-        ul li::before {
-            content: '▹';
-            position: absolute;
-            left: -20px;
-            color: #667eea;
-            font-weight: bold;
+            font-size: 13px;
+            margin-bottom: 4px;
         }
 
         .project-title {
             font-weight: 600;
-            font-size: 18px;
-            color: #2d3748;
-            margin-top: 20px;
-            margin-bottom: 8px;
+            margin-top: 8px;
         }
 
         .project-tech {
             font-style: italic;
-            font-size: 14px;
-            color: #718096;
-            background: #edf2f7;
-            padding: 6px 12px;
-            border-radius: 6px;
-            display: inline-block;
-            margin-bottom: 10px;
+            font-size: 12px;
+            margin-bottom: 4px;
         }
 
         .education-item {
-            margin-bottom: 20px;
-            padding: 20px;
-            background: #f7fafc;
-            border-radius: 10px;
-            border-left: 4px solid #667eea;
-            transition: all 0.3s ease;
-        }
-
-        .education-item:hover {
-            transform: translateX(5px);
-            box-shadow: 0 4px 12px rgba(102, 126, 234, 0.15);
-        }
-
-        .education-item strong {
-            color: #2d3748;
-            font-weight: 600;
-        }
-
-        .skills strong {
-            display: inline-block;
-            width: 220px;
-            color: #667eea;
-            font-weight: 600;
-            font-size: 15px;
+            margin-bottom: 8px;
         }
 
         .skills p {
-            margin: 12px 0;
-            padding: 12px;
-            background: #f7fafc;
-            border-radius: 8px;
-            transition: all 0.3s ease;
+            margin-bottom: 4px;
         }
 
-        .skills p:hover {
-            background: #edf2f7;
-            transform: translateX(5px);
-        }
-
-        /* Achievements */
-        .section ul li strong {
-            color: #2d3748;
-        }
-
-        .section ul li em {
-            color: #718096;
-        }
-
-        /* Responsive Design */
-        @media (max-width: 768px) {
-            body {
-                padding: 20px 10px;
-            }
-
-            .header {
-                padding: 35px 25px 30px;
-            }
-
-            h1 {
-                font-size: 32px;
-            }
-
-            .content {
-                padding: 30px 25px;
-            }
-
-            .section-title {
-                font-size: 20px;
-            }
-
-            .skills strong {
-                width: 100%;
-                display: block;
-                margin-bottom: 5px;
-            }
-        }
-
-        /* Print Styles */
+        /* Print Optimization */
         @media print {
             body {
-                background: white;
+                background: #fff;
                 padding: 0;
             }
 
-            .resume {
-                box-shadow: none;
-                border-radius: 0;
+            .print-btn {
+                display: none;
             }
 
-            .header {
-                background: #667eea;
-                color-adjust: exact;
-                print-color-adjust: exact;
-                -webkit-print-color-adjust: exact;
+            .resume {
+                border: none;
+                padding: 20px;
+                width: 100%;
+                max-width: 100%;
+            }
+
+            @page {
+                size: A4;
+                margin: 12mm;
             }
         }
     </style>
 </head>
 
 <body>
+
+<div class="print-btn">
+    <button onclick="window.print()">🖨 Print Resume</button>
+</div>
+
 <div class="resume">
 
+    <!-- Header -->
     <div class="header">
         <h1>Hardik Jain</h1>
         <div class="contact">
-            📧 <a href="mailto:jainhardik2100@gmail.com">jainhardik2100@gmail.com</a> |
-            📞 9115633911 <br>
-            🔗 <a href="https://linkedin.com/in/jainhardik21">linkedin.com/in/jainhardik21</a> |
-            💻 <a href="https://github.com/jainhardik13">github.com/jainhardik13</a>
+            jainhardik2100@gmail.com | 9115633911 |
+            <a href="https://linkedin.com/in/jainhardik21">linkedin.com/in/jainhardik21</a> |
+            <a href="https://github.com/jainhardik13">github.com/jainhardik13</a>
         </div>
     </div>
 
-    <div class="content">
     <!-- Profile -->
     <div class="section">
         <div class="section-title">Profile</div>
         <p>
             Computer Science Engineering undergraduate specializing in Backend Development using Java and Spring Boot.
-            Hands-on experience in designing and building RESTful microservices, implementing JWT-based security,
-            and working with relational databases (MySQL). Strong understanding of Java core concepts, OOP,
-            collections, multithreading basics, and clean coding practices. Passionate about building scalable,
-            high-performance backend systems in collaborative engineering environments.
+            Experienced in building RESTful microservices, implementing JWT-based security, and working with relational
+            databases. Strong foundation in Java, OOP, data structures, and clean coding practices.
         </p>
     </div>
 
@@ -306,22 +175,19 @@
         <p class="project-title">Swiggaa – Food Delivery Platform</p>
         <p class="project-tech">Java | Spring Boot | Microservices | REST APIs | JWT | MySQL</p>
         <ul>
-            <li>Designed and developed scalable backend microservices using Java 8+ and Spring Boot.</li>
-            <li>Built RESTful APIs for core business workflows and integrated services using API Gateway and Eureka.</li>
-            <li>Implemented JWT-based authentication and authorization, securing critical backend endpoints.</li>
-            <li>Applied clean architecture principles and modular design for maintainability and scalability.</li>
-            <li>Debugged and resolved production-level issues, improving API response time and system reliability.</li>
-            <li>Performed integration testing, API validation, and performance optimization.</li>
-            <li>Collaborated across services, simulating a real-world SDLC environment.</li>
+            <li>Developed scalable backend microservices using Java and Spring Boot.</li>
+            <li>Built REST APIs and integrated services via API Gateway and Eureka.</li>
+            <li>Implemented JWT-based authentication and secured backend endpoints.</li>
+            <li>Applied clean architecture and modular design principles.</li>
+            <li>Performed API testing, debugging, and performance optimization.</li>
         </ul>
 
         <p class="project-title">Resume Builder – Full Stack SaaS Application</p>
         <p class="project-tech">Backend APIs | Authentication | MongoDB</p>
         <ul>
-            <li>Developed secure REST APIs with proper input validation and error handling.</li>
-            <li>Implemented JWT authentication, protected routes, and session management.</li>
-            <li>Designed efficient backend workflows and optimized database queries.</li>
-            <li>Followed modular backend architecture and clean coding standards.</li>
+            <li>Designed and developed secure REST APIs with proper validation.</li>
+            <li>Implemented JWT authentication and protected routes.</li>
+            <li>Optimized backend workflows and database queries.</li>
         </ul>
     </div>
 
@@ -330,11 +196,11 @@
         <div class="section-title">Achievements</div>
         <ul>
             <li>
-                Co-authored a research paper titled <strong>“Revolutionized Breast Cancer Detection: Enhancing AI and
-                Machine Learning”</strong>, accepted in <em>AI-Driven Management: Process Optimization for Competitive
-                Advantage Using Algorithms (2025)</em>.
+                Co-authored research paper titled
+                <strong>“Revolutionized Breast Cancer Detection: Enhancing AI and Machine Learning”</strong>,
+                accepted in <em>AI-Driven Management (2025)</em>.
             </li>
-            <li>Academic Excellence: Maintained consistent 9.0+ CGPA while leading technical projects.</li>
+            <li>Maintained consistent 9.0+ CGPA while leading technical projects.</li>
         </ul>
     </div>
 
@@ -344,17 +210,17 @@
 
         <div class="education-item">
             <p><strong>Bachelor of Engineering in Computer Science</strong> – Chitkara University, Punjab (2023 – 2027)</p>
-            <p>Current CGPA: 9.30</p>
+            <p>CGPA: 9.30</p>
         </div>
 
         <div class="education-item">
-            <p><strong>Higher Secondary Education (Class XII)</strong> – BCM School, Ludhiana (2022 – 2023)</p>
-            <p>Percentage: 92%</p>
+            <p><strong>Higher Secondary (Class XII)</strong> – BCM School, Ludhiana (2022 – 2023)</p>
+            <p>92%</p>
         </div>
 
         <div class="education-item">
-            <p><strong>Secondary Education (Class X)</strong> – BCM School, Ludhiana (2020 – 2021)</p>
-            <p>Percentage: 94%</p>
+            <p><strong>Secondary (Class X)</strong> – BCM School, Ludhiana (2020 – 2021)</p>
+            <p>94%</p>
         </div>
     </div>
 
@@ -362,18 +228,15 @@
     <div class="section skills">
         <div class="section-title">Skills</div>
 
-        <p><strong>Programming Languages:</strong> Java (Core Java, OOP, Collections), C++, Python, JavaScript</p>
-        <p><strong>Backend Development:</strong> Spring Boot, RESTful APIs, Microservices Architecture, JWT Authentication, API Design, Postman</p>
-        <p><strong>Databases:</strong> MySQL, MongoDB, PostgreSQL (basic), ORM concepts (Hibernate – conceptual)</p>
-        <p><strong>Concurrency & Core CS:</strong> Multithreading Basics, Data Structures & Algorithms, Operating Systems, DBMS, Computer Networks</p>
-        <p><strong>Tools & Platforms:</strong> Git, Maven (basic), Docker (basic), AWS EC2/S3 (beginner), Linux</p>
-        <p><strong>Software Engineering Practices:</strong> Clean Code, Modular Design, Secure Coding Practices, Debugging, Performance Optimization</p>
-        <p><strong>Current Learning & Certifications:</strong> Linux Administration — Imran Afzal (Udemy), Python for Data Science & Machine Learning — Yasin Marco MBA (Udemy)</p>
-        <p><strong>Soft Skills:</strong> Problem Solving, Ownership Mindset, Team Collaboration, Clear Communication, Fast Learner, Attention to Detail, Adaptability</p>
-        <p><strong>Personal Interests:</strong> Gaming and Esports, Exploring PC Hardware, Web Development, Emerging Tech Trends</p>
-    </div>
+        <p><strong>Languages:</strong> Java, C++, Python, JavaScript</p>
+        <p><strong>Backend:</strong> Spring Boot, REST APIs, Microservices, JWT</p>
+        <p><strong>Databases:</strong> MySQL, MongoDB, PostgreSQL (basic)</p>
+        <p><strong>Core CS:</strong> DSA, OS, DBMS, Computer Networks</p>
+        <p><strong>Tools:</strong> Git, Docker (basic), AWS EC2/S3 (beginner), Linux</p>
+        <p><strong>Soft Skills:</strong> Problem Solving, Team Collaboration, Fast Learner</p>
     </div>
 
 </div>
+
 </body>
 </html>
