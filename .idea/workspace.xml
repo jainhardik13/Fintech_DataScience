@@ -2,11 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f0bb90d3-de92-4fdc-9259-eaeb1e8504d4" name="Changes" comment="House Price Prediction Model trained">
-      <change afterPath="$PROJECT_DIR$/2310991837_Hardik_Jain.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Advance Web Scrapping/WebScrapping_ADV.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/updated portfolio management/Updated_Portfolio_Management.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/updated portfolio management/updated_portfolio.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Beautiful Soup/Beautiful soup 1st.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Beautiful Soup/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Beautiful Soup/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Beautiful Soup/resume_scraper.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2310991837_Hardik_Jain.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Feb 9 2026/Stock price element.docx" beforeDir="false" afterPath="$PROJECT_DIR$/Feb 9 2026/Stock price element.docx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Notes.docx" beforeDir="false" afterPath="$PROJECT_DIR$/Notes.docx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -29,8 +31,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
-        <option value="Jupyter Notebook" />
         <option value="HTML File" />
+        <option value="Jupyter Notebook" />
       </list>
     </option>
   </component>
@@ -69,7 +71,8 @@
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "ai.playground.ignore.import.keys.banner.in.settings": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "Test__Branch",
+    "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "C:/Users/Jainh/OneDrive/Desktop/FinTech",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
@@ -123,6 +126,7 @@
       <workItem from="1770363398164" duration="82000" />
       <workItem from="1770367806363" duration="5192000" />
       <workItem from="1770610216311" duration="1504000" />
+      <workItem from="1770617244933" duration="1888000" />
     </task>
     <task id="LOCAL-00001" summary="Fintech DataScience 1st and 2nd class">
       <option name="closed" value="true" />
