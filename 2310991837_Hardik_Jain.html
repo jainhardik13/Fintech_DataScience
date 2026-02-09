@@ -249,6 +249,54 @@
                 display: block;
                 margin-bottom: 5px;
             }
+
+            .print-button {
+                top: 15px;
+                right: 15px;
+                padding: 12px 20px;
+                font-size: 14px;
+            }
+
+            .print-button svg {
+                width: 18px;
+                height: 18px;
+            }
+        }
+
+        /* Print Button */
+        .print-button {
+            position: fixed;
+            top: 30px;
+            right: 30px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            padding: 14px 28px;
+            border-radius: 50px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            box-shadow: 0 8px 24px rgba(102, 126, 234, 0.4);
+            transition: all 0.3s ease;
+            z-index: 1000;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .print-button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 12px 32px rgba(102, 126, 234, 0.6);
+        }
+
+        .print-button:active {
+            transform: translateY(-1px);
+        }
+
+        .print-button svg {
+            width: 20px;
+            height: 20px;
         }
 
         /* Print Styles */
@@ -269,11 +317,26 @@
                 print-color-adjust: exact;
                 -webkit-print-color-adjust: exact;
             }
+
+            .print-button {
+                display: none;
+            }
         }
     </style>
 </head>
 
 <body>
+
+<!-- Print Button -->
+<button class="print-button" onclick="window.print()" aria-label="Print Resume">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <polyline points="6 9 6 2 18 2 18 9"></polyline>
+        <path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"></path>
+        <rect x="6" y="14" width="12" height="8"></rect>
+    </svg>
+    Print Resume
+</button>
+
 <div class="resume">
 
     <div class="header">
