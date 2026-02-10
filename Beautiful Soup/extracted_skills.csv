@@ -1,13 +1,7 @@
 Skill_Number,Skill
-1,Programming Languages:
-2,"Java, C++, C, Python"
-3,Frontend:
-4,"HTML, CSS, JavaScript, React"
-5,Backend:
-6,"Node.js, Express.js, Spring Boot"
-7,Databases:
-8,"MySQL, MongoDB (Cloud Atlas)"
-9,Core Concepts:
-10,"Data Structures & Algorithms, OOP, DBMS, Operating Systems, Computer Networks"
-11,Tools/Cloud:
-12,"AWS, Git, REST APIs"
+1,"Languages:Java, C++, Python, JavaScript"
+2,"Backend:Spring Boot, REST APIs, Microservices, JWT"
+3,"Databases:MySQL, MongoDB, PostgreSQL (basic)"
+4,"Core CS:DSA, OS, DBMS, Computer Networks"
+5,"Tools:Git, Docker (basic), AWS EC2/S3 (beginner), Linux"
+6,"Soft Skills:Problem Solving, Team Collaboration, Fast Learner"
