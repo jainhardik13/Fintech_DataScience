@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f0bb90d3-de92-4fdc-9259-eaeb1e8504d4" name="Changes" comment="House Price Prediction Model trained">
-      <change afterPath="$PROJECT_DIR$/Beautiful Soup/Beautiful soup 1st.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Beautiful Soup/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Beautiful Soup/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Beautiful Soup/resume_scraper.py" afterDir="false" />
+    <list default="true" id="f0bb90d3-de92-4fdc-9259-eaeb1e8504d4" name="Changes" comment="beautiful soup scrapping done on resume hosted on s3 bucket">
+      <change afterPath="$PROJECT_DIR$/.idea/copilot.data.migration.ask2agent.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10Feb/HistStockPrices.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2310991837_Hardik_Jain.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Feb 9 2026/Stock price element.docx" beforeDir="false" afterPath="$PROJECT_DIR$/Feb 9 2026/Stock price element.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Beautiful Soup/Beautiful soup 1st.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Beautiful Soup/Beautiful soup 1st.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Beautiful Soup/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Beautiful Soup/extracted_skills.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Beautiful Soup/extracted_skills.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Beautiful Soup/requirements.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Beautiful Soup/resume_scraper.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Feb 9 2026/~$ock price element.docx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Notes.docx" beforeDir="false" afterPath="$PROJECT_DIR$/Notes.docx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -30,9 +32,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
         <option value="Jupyter Notebook" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -49,6 +51,16 @@
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/jainhardik13/Fintech_DataScience.git&quot;,
     &quot;accountId&quot;: &quot;d95bb3a2-1834-4985-b43d-6b8451d2b4de&quot;
+  },
+  &quot;recentNewPullRequestHead&quot;: {
+    &quot;server&quot;: {
+      &quot;useHttp&quot;: false,
+      &quot;host&quot;: &quot;github.com&quot;,
+      &quot;port&quot;: null,
+      &quot;suffix&quot;: null
+    },
+    &quot;owner&quot;: &quot;jainhardik13&quot;,
+    &quot;repository&quot;: &quot;Fintech_DataScience&quot;
   }
 }</component>
   <component name="ProjectColorInfo">{
@@ -66,10 +78,12 @@
     "Python.1st.executor": "Run",
     "Python.2nd.executor": "Run",
     "Python.FinancialTime_Series.executor": "Run",
+    "Python.HistStockPrices.executor": "Run",
     "Python.graphs.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "ai.playground.ignore.import.keys.banner.in.settings": "true",
     "git-widget-placeholder": "Test__Branch",
     "ignore.virus.scanning.warn.message": "true",
@@ -126,7 +140,8 @@
       <workItem from="1770363398164" duration="82000" />
       <workItem from="1770367806363" duration="5192000" />
       <workItem from="1770610216311" duration="1504000" />
-      <workItem from="1770617244933" duration="1888000" />
+      <workItem from="1770617244933" duration="3460000" />
+      <workItem from="1770698557462" duration="1118000" />
     </task>
     <task id="LOCAL-00001" summary="Fintech DataScience 1st and 2nd class">
       <option name="closed" value="true" />
@@ -168,7 +183,15 @@
       <option name="project" value="LOCAL" />
       <updated>1770357053875</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="beautiful soup scrapping done on resume hosted on s3 bucket">
+      <option name="closed" value="true" />
+      <created>1770619192752</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1770619192752</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -180,10 +203,12 @@
     <MESSAGE value="1st ML Model created" />
     <MESSAGE value="2st ML Model created" />
     <MESSAGE value="House Price Prediction Model trained" />
-    <option name="LAST_COMMIT_MESSAGE" value="House Price Prediction Model trained" />
+    <MESSAGE value="beautiful soup scrapping done on resume hosted on s3 bucket" />
+    <option name="LAST_COMMIT_MESSAGE" value="beautiful soup scrapping done on resume hosted on s3 bucket" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/FinTech$1st.coverage" NAME="1st Coverage Results" MODIFIED="1770016613953" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/FinTech$HistStockPrices.coverage" NAME="HistStockPrices Coverage Results" MODIFIED="1770698622641" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/10Feb" />
     <SUITE FILE_PATH="coverage/FinTech$FinancialTime_Series.coverage" NAME="FinancialTime_Series Coverage Results" MODIFIED="1770188008617" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Financial Time Series" />
     <SUITE FILE_PATH="coverage/FinTech$2nd.coverage" NAME="2nd Coverage Results" MODIFIED="1770027903761" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/FinTech$graphs.coverage" NAME="graphs Coverage Results" MODIFIED="1770181139849" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/graphs" />
